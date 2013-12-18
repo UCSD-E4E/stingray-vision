@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/amtec/src/sweep_amtec
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/amtec/src/sweep_amtec/CMakeLists.txt
+END
+sweep_amtec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/amtec/src/sweep_amtec/sweep_amtec.cpp
+END

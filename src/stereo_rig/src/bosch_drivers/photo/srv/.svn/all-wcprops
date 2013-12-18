@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/photo/srv
+END
+Capture.srv
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/photo/srv/Capture.srv
+END
+GetConfig.srv
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/photo/srv/GetConfig.srv
+END
+SetConfig.srv
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/bosch-ros-pkg/code/!svn/ver/115/trunk/stacks/bosch_drivers/photo/srv/SetConfig.srv
+END

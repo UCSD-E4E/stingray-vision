@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/bosch-ros-pkg/code/!svn/ver/1679/trunk/stacks/bosch_drivers/bosch_drivers_common/include/bosch_drivers_common
+END
+bosch_drivers_hardware_interface.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/p/bosch-ros-pkg/code/!svn/ver/1611/trunk/stacks/bosch_drivers/bosch_drivers_common/include/bosch_drivers_common/bosch_drivers_hardware_interface.hpp
+END
+bosch_drivers_parameters.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/p/bosch-ros-pkg/code/!svn/ver/1611/trunk/stacks/bosch_drivers/bosch_drivers_common/include/bosch_drivers_common/bosch_drivers_parameters.hpp
+END
+bosch_drivers_sensor_driver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/p/bosch-ros-pkg/code/!svn/ver/1611/trunk/stacks/bosch_drivers/bosch_drivers_common/include/bosch_drivers_common/bosch_drivers_sensor_driver.hpp
+END
+bosch_drivers_common.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/p/bosch-ros-pkg/code/!svn/ver/1679/trunk/stacks/bosch_drivers/bosch_drivers_common/include/bosch_drivers_common/bosch_drivers_common.hpp
+END

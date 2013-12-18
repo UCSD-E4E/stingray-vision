@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/bosch-ros-pkg/code/!svn/ver/1684/trunk/stacks/bosch_drivers/bmg160_driver/msg
+END
+bmg160meas.msg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/bosch-ros-pkg/code/!svn/ver/1684/trunk/stacks/bosch_drivers/bmg160_driver/msg/bmg160meas.msg
+END

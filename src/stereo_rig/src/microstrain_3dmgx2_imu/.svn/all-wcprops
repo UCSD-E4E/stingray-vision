@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ros-pkg/!svn/ver/40341/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu
+END
+imu_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ros-pkg/!svn/ver/40341/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/imu_node.cc
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ros-pkg/!svn/ver/36781/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/manifest.xml
+END
+microstrain_3dmgx2.launch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ros-pkg/!svn/ver/26640/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/microstrain_3dmgx2.launch
+END
+3dmgx2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ros-pkg/!svn/ver/37045/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/3dmgx2.cc
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ros-pkg/!svn/ver/27156/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ros-pkg/!svn/ver/38715/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/CMakeLists.txt
+END
+COPYING.lib
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ros-pkg/!svn/ver/26432/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/COPYING.lib
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ros-pkg/!svn/ver/26432/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/Makefile
+END

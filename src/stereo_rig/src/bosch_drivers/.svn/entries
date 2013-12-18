@@ -1,0 +1,236 @@
+10
+
+dir
+1689
+http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/bosch_drivers
+http://svn.code.sf.net/p/bosch-ros-pkg/code
+
+
+
+2013-08-23T21:39:10.237707Z
+1689
+philrroan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+2f5dae86-743c-430d-921f-7dbcfe3428eb
+
+bosch_drivers_example_nodes
+dir
+
+bmc050_driver
+dir
+
+adc_sub20
+dir
+
+adc_driver
+dir
+
+gumstix_memread_bma180
+dir
+
+bma180_driver
+dir
+
+bosch_drivers_common
+dir
+
+stack.xml
+file
+
+
+
+
+2013-09-10T20:21:01.730515Z
+c912d8ebdc24d302b88735839eb943ec
+2012-09-26T18:12:10.119931Z
+1611
+philrroan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+964
+
+bmg160_driver
+dir
+
+gpio_driver
+dir
+
+usb_cam
+dir
+
+bmp085
+dir
+
+sub20_interface
+dir
+
+Makefile
+file
+
+
+
+
+2013-09-10T20:21:01.730515Z
+23f47450e4334db0c1d15023d7b9bd6a
+2009-12-08T23:25:13.938367Z
+62
+duhadway-bosch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47
+
+CMakeLists.txt
+file
+
+
+
+
+2013-09-10T20:21:01.730515Z
+0d427793418f5a31f323b43d3bfee265
+2012-09-26T18:12:10.119931Z
+1611
+philrroan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+843
+
+pwm_driver
+dir
+
+arduino_interface
+dir
+
+gumstix_memwrite_bma180
+dir
+
+smi540
+dir
+
+bosch_drivers_basic_nodes
+dir
+
+bmp085_driver
+dir
+
+bma180
+dir
+
+amtec
+dir
+
+photo
+dir
+
+encoder_driver
+dir
+
+sub20
+dir
+
+uniserial
+dir
+
+rosdep.yaml
+file
+
+
+
+
+2013-09-10T20:21:01.726515Z
+9497be0f8342f83e7dc3c4fa17230907
+2012-03-19T16:41:47.309439Z
+1286
+pitzer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+126
+

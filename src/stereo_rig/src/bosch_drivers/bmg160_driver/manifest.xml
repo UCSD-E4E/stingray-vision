@@ -1,0 +1,22 @@
+<package>
+  <description brief="bmg160_driver">
+
+     bmg160_driver
+
+  </description>
+  <author>Joshua Vasquez, Philip Roan. Maintained by Philip Roan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/bmg160</url>
+  <depend package="bosch_drivers_common"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include/bmg160_driver" lflags="-L${prefix}/lib -lbmg160"/>
+  </export>
+  <export>
+    <cpp cflags="-I${prefix}/include/bmg160_driver" lflags="-L${prefix}/lib -lbmg160_parameters"/>
+  </export>
+
+</package>
+
+

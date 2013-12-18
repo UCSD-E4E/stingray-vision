@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/bosch-ros-pkg/code/!svn/ver/1689/trunk/stacks/bosch_drivers/bmp085_driver/include/bmp085_driver
+END
+bmp085.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/bosch-ros-pkg/code/!svn/ver/1689/trunk/stacks/bosch_drivers/bmp085_driver/include/bmp085_driver/bmp085.hpp
+END
+bmp085_parameters.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/p/bosch-ros-pkg/code/!svn/ver/1689/trunk/stacks/bosch_drivers/bmp085_driver/include/bmp085_driver/bmp085_parameters.hpp
+END

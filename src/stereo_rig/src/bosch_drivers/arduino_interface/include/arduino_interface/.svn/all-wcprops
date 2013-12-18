@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/bosch-ros-pkg/code/!svn/ver/1682/trunk/stacks/bosch_drivers/arduino_interface/include/arduino_interface
+END
+arduino_constants.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/p/bosch-ros-pkg/code/!svn/ver/1682/trunk/stacks/bosch_drivers/arduino_interface/include/arduino_interface/arduino_constants.hpp
+END
+arduino_interface.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/p/bosch-ros-pkg/code/!svn/ver/1679/trunk/stacks/bosch_drivers/arduino_interface/include/arduino_interface/arduino_interface.hpp
+END

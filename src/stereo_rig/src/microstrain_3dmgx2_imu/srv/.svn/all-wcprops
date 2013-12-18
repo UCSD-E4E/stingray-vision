@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ros-pkg/!svn/ver/26432/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/srv
+END
+AddOffset.srv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ros-pkg/!svn/ver/26432/stacks/imu_drivers/trunk/microstrain_3dmgx2_imu/srv/AddOffset.srv
+END
