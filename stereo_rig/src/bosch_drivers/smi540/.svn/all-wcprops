@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/bosch-ros-pkg/code/!svn/ver/1132/trunk/stacks/bosch_drivers/smi540
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/bosch-ros-pkg/code/!svn/ver/1132/trunk/stacks/bosch_drivers/smi540/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/bosch-ros-pkg/code/!svn/ver/139/trunk/stacks/bosch_drivers/smi540/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/bosch-ros-pkg/code/!svn/ver/341/trunk/stacks/bosch_drivers/smi540/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/bosch-ros-pkg/code/!svn/ver/139/trunk/stacks/bosch_drivers/smi540/Makefile
+END

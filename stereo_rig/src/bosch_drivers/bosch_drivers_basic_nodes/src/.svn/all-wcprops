@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/bosch-ros-pkg/code/!svn/ver/1687/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src
+END
+gpio_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/bosch-ros-pkg/code/!svn/ver/1687/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/gpio_node.cpp
+END
+encoder_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/bosch-ros-pkg/code/!svn/ver/1687/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/encoder_node.cpp
+END
+pwm_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/bosch-ros-pkg/code/!svn/ver/1687/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/pwm_node.cpp
+END
+bmc050_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/bosch-ros-pkg/code/!svn/ver/1617/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/bmc050_node.cpp
+END
+adc_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/bosch-ros-pkg/code/!svn/ver/1687/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/adc_node.cpp
+END
+bma180_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/bosch-ros-pkg/code/!svn/ver/1617/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/bma180_node.cpp
+END
+bmp085_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/bosch-ros-pkg/code/!svn/ver/1617/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/bmp085_node.cpp
+END
+bmg160_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/bosch-ros-pkg/code/!svn/ver/1685/trunk/stacks/bosch_drivers/bosch_drivers_basic_nodes/src/bmg160_node.cpp
+END
