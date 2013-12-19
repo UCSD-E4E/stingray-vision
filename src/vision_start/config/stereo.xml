@@ -6,7 +6,7 @@
     <arg name="start_stereo" default="true"/>
 
     <group ns="stereo">
-        <node pkg="prosilica_camera_hammerhead" type="prosilica_node" name="left" output="screen" machine="vision">
+        <node pkg="prosilica_camera" type="prosilica_node" name="left" output="screen" machine="vision">
             <!--rosparam command="load" file="$(find prosilica_camera_hammerhead)/camera_info/gc750c.yaml" /-->
 	    <param name="frame_id" value="camera_optical"/>
             <param name="ip_address" value="$(arg left_ip)"/>
@@ -15,7 +15,7 @@
             <remap from="camera" to="left"/>
         </node>
 
-        <node pkg="prosilica_camera_hammerhead" type="prosilica_node" name="right" output="screen" machine="vision">
+        <node pkg="prosilica_camera" type="prosilica_node" name="right" output="screen" machine="vision">
             <!--rosparam command="load" file="$(find prosilica_camera_hammerhead)/camera_info/gc750c.yaml" /-->
             <param name="frame_id" value="camera_optical"/> <!--stereo_optical_right-->
             <param name="ip_address" value="$(arg right_ip)"/>

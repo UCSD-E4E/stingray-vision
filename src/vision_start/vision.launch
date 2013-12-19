@@ -1,6 +1,7 @@
 <!-- Launches all Stingray vision processes independent of other systems. -->
 <launch>
-
+  
+  <include file="$(find vision_start)/vision.machine" />
   <include file="$(find vision_start)/config/stereo.xml" />
   <!-- <include file="$(find vision_start)/config/vslam.xml" /> -->
 
