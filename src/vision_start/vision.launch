@@ -3,6 +3,8 @@
   
   <include file="$(find vision_start)/vision.machine" />
   <include file="$(find vision_start)/config/stereo.xml" />
+  <include file="$(find vision_start)/config/odometry.xml" />
+  <include file="$(find vision_start)/config/staticTransforms.xml" />
   <!-- <include file="$(find vision_start)/config/vslam.xml" /> -->
 
 </launch>
