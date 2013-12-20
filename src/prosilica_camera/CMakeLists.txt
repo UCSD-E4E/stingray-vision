@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 1.8.3)
 project(prosilica_camera)
 
 ## Find catkin macros and libraries
