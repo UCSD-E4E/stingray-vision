@@ -1,4 +1,4 @@
 <!-- Configuration for the Stingray vision machine only. -->
 <launch>
-  <machine name="vision" address="stingray-vision" default="true" env-loader="/home/stingray-vision/stingray-vision/devel/env.sh" />
+  <machine name="vision" user="stingray-vision" address="stingray-vision" default="true" />
 </launch>
