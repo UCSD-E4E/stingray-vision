@@ -2,9 +2,10 @@
 
   <arg name="camera_ip" default="192.168.3.145" />
   <arg name="camera" default="/camera" />
+  <arg name="start_proc" default="true" />
 
-  <node pkg="prosilica_camera" type="prosilica_node" name="camera" output="screen">
-    <rosparam command="load" file="$(find prosilica_stingray)/camera_info/gc750c.yaml" />
+  <node pkg="prosilica_stingray" type="prosilica_node" name="camera" output="screen">
+    <!--<rosparam command="load" file="$(find prosilica_stingray)/camera_info/gc750c.yaml" />-->
     <param name="frame_id" value="camera_optical"/>
     <param name="ip_address" value="$(arg camera_ip)"/>
     <param name="exposure_auto_max" value="True"/>
@@ -12,8 +13,10 @@
   </node>
 
   <!-- Run image_proc -->
-  <group ns="$(arg camera)">
-    <node pkg="image_proc" type="image_proc" name="image_proc" />
+  <group if="$(arg start_proc)">
+    <node pkg="image_proc" type="image_proc" name="image_proc">
+      <param name="frame_id" value="camera_optical"/>    
+    </node>
   </group>
 
 </launch>

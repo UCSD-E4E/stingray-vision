@@ -1,0 +1,15 @@
+<!--
+  Launches calibration program for stereo cameras, using checkerboard pattern.
+-->
+<launch>
+  <arg name="start_stereo default="false" />
+  
+  <include file="$(find vision_start)/config/stereo.xml" />
+    <arg name="start_stereo" value="$(arg start_stereo)" />
+  </include>
+
+  <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration"
+    args="--size 8x6 --square 0.054 right:=/stereo/right/image_raw left:=/stereo/left/image_raw right_camera:=/stereo/right left_camera:=stereo/left --approximate=0.005">
+  </node>
+
+</launch>

@@ -1,0 +1,8 @@
+<!--
+  Launches calibration for single camera.
+-->
+<launch>
+  <node pkg="camera_calibration" type="cameracalibrator.py" name="mono_calibration"
+    args="" >
+  </node>
+</launch>
