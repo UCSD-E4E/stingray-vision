@@ -1,4 +1,4 @@
 <!-- Configuration for the Stingray vision machine only. -->
 <launch>
-  <machine name="vision" user="stingray-vision" address="stingray-vision" default="true" />
+  <machine name="vision" user="stingray" address="stingray-vision" default="true" />
 </launch>
