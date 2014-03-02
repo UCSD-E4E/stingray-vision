@@ -2,7 +2,32 @@
   Launches calibration for single camera.
 -->
 <launch>
-  <node pkg="camera_calibration" type="cameracalibrator.py" name="mono_calibration"
-    args="" >
-  </node>
+  <!-- Type of calibration pattern -->
+  <arg name="checkerboard" value="true" />
+  <arg name="acircles" value="false" />
+  <arg name="circles" value="false" />
+
+  <include file="$(find vision_start)/config/mono.xml" />
+  
+  <!-- If using checkerboard calibration pattern -->
+  <group if="$(arg checkerboard)">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="mono_calibration_checkerboard"
+      args="--size 8x6 --square 0.054 image:=/camera/image_raw camera:=/camera --approximate=0.005">
+    </node>
+  </group>
+
+  <!-- If using asymmetric circles calibration pattern -->
+  <group if="$(arg acircles)">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="mono_calibration_acircles"
+      args="">
+    </node>
+  </group>
+
+  <!-- If using circle calibration pattern -->
+  <group if="$(arg circles)">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="mono_calibration_circles"
+      args="">
+    </node>
+  </group>
+
 </launch>
