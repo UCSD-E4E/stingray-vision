@@ -1,3 +1,6 @@
 [submodule "src/viso2"]
 	path = src/viso2
 	url = git://github.com/srv/viso2.git
+[submodule "src/perception_pcl"]
+	path = src/perception_pcl
+	url = git://github.com/ros-perception/perception_pcl.git
