@@ -1,0 +1,17 @@
+<!--
+  Records stereo data, IMU, and compass data to a bag file.
+-->
+<launch>
+  
+  <include file="$(find vision_start)/config/stereo.xml" />
+  <include file="$(find controls_start)/config/sensors.xml" />
+
+  <!-- Record camera and sensor data to bag file -->
+  <node pkg="rosbag" type="record" name="rosbag_record"
+    args="record /stereo/left/image_raw /stereo/left/camera_info 
+                 /stereo/right/image_raw /stereo/right/camera_info
+                 /imu/data /os5000_data
+                 -O /home/stingray/data/stereo_data.bag">
+  </node>
+
+</launch>
