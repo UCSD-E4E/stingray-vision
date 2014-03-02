@@ -1,0 +1,16 @@
+<!--
+  Records camera data, IMU, and compass data to a bag file.
+-->
+<launch>
+  
+  <include file="$(find vision_start)/config/mono.xml" />
+  <include file="$(find controls_start)/config/sensors.xml" />
+
+  <!-- Record camera and sensor data to bag file -->
+  <node pkg="rosbag" type="record" name="rosbag_record"
+    args="record /camera/image_raw /camera/camera_info 
+                 /imu/data /os5000_data
+                 -O /home/stingray/data/mono_data.bag">
+  </node>
+
+</launch>
