@@ -1,0 +1,5 @@
+<launch>
+
+  <include file="$(find vision_start)/config/stereo.xml" />
+
+</launch>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>stereo_slam</name>
+  <version>1.0.0</version>
+  <description>The stereo_slam package</description>
+
+  <maintainer email="awilby@ucsd.edu">Antonella Wilby</maintainer>
+
+  <license>TODO</license>
+
+  <!-- <url type="website">http://wiki.ros.org/stereo_slam</url> -->
+
+  <author email="awilby@ucsd.edu">Antonella Wilby</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>robot_pose_ekf</run_depend>
+  <run_depend>viso2_ros</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

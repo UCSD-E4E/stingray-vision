@@ -1,0 +1,41 @@
+<launch>
+
+  <arg name="camera" default="/camera" />
+
+  <include file="$(find vision_start)/config/mono.xml" />
+
+  <!-- View raw image from camera -->
+  <node pkg="image_view" type="image_view" name="image_view" args="image:=$(arg camera)/image_raw" />
+
+  <!-- Viso2 monocular odometer -->
+  <node pkg="viso2_ros" type="mono_odometer" name="mono_odometer" output="screen">
+    <remap from="image" to="$(arg camera)/image_rect" />
+    
+    <!-- Matcher params -->
+    <param name="nms_n" value="3" />
+    <param name="nms_tau" value="50" />
+    <param name="match_binsize" value="50" />
+    <param name="match_radius" value="200" />
+    <param name="match_disp_tolerance" value="2" />
+    <param name="outlier_disp_tolerance" value="5" />
+    <param name="outlier_flow_tolerance" value="5" />
+    <param name="multi_stage" value="1" />
+    <param name="half_resolution" value="1" />
+    <param name="refinement" value="1" />
+
+    <!-- Bucketing params -->
+    <param name="max_features" value="2" />
+    <param name="bucket_width" value="50" />
+    <param name="bucket_height" value="50" />
+
+    <!-- Mono params -->
+    <param name="camera_height" value="1.0" />
+    <param name="camera_pitch" value="0.0" />
+    <param name="ransac_iters" value="2000" />
+    <param name="inlier_threshold" value="1e-5" />
+    <param name="motion_threshold" value="100" />
+
+
+  </node>
+
+</launch>
