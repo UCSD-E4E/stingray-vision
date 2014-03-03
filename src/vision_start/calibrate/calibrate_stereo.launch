@@ -3,7 +3,7 @@
 -->
 <launch>
   <!-- Type of calibration pattern -->
-  <arg name="checkerboard" value="true" />
+  <arg name="chessboard" value="true" />
   <arg name="acircles" value="false" />
   <arg name="circles" value="false" />
 
@@ -15,22 +15,25 @@
 
   <!-- If using checkerboard calibration pattern -->
   <group if="$(arg checkerboard)">
-    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration_checkerboard"
-      args="--size 8x6 --square 0.054 right:=/stereo/right/image_raw left:=/stereo/left/image_raw right_camera:=/stereo/right left_camera:=stereo/left --approximate=0.005">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration"
+      args="--pattern chessboard --size 8x6 --square 0.054 right:=/stereo/right/image_raw left:=/stereo/left/image_raw
+            right_camera:=/stereo/right left_camera:=stereo/left --approximate=0.005">
     </node>
   </group>
 
   <!-- If using asymmetric circles calibration pattern -->
   <group if="$(arg acircles)">
-    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration_acircles"
-      args="">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration"
+      args="--pattern acircles --size 8x6 --square 1.601 --size 6x5 --square 4.137 right:=/stereo/right/image_raw left:=/stereo/left/image_raw 
+            right_camera:=/stereo/right left_camera:=/stereo/left --approximate 0.005">
     </node>
   </group>
 
   <!-- If using circles calibration pattern -->
   <group if="$(arg circles)">
-    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration_circles"
-      args="">
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="stereo_calibration"
+      args="--pattern circles --size 8x6 --square 1.601 right:=/stereo/right/image_raw left:=/stereo/left/image_raw
+            right_camera:=/stereo/right left_camera:=/stereo/left --approximate 0.005">
     </node>
   </group>
 
