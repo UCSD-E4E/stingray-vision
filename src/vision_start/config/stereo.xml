@@ -6,15 +6,18 @@
   <arg name="start_stereo" default="true"/>
 
   <group ns="stereo">
+
+    <!-- Start left camera -->
     <node pkg="prosilica_stingray" type="prosilica_node" name="left" output="screen" machine="vision">
       <!--<rosparam command="load" file="$(find prosilica_stingray)/camera_info/gc750c.yaml" />-->
       <param name="frame_id" value="camera_optical"/>
       <param name="ip_address" value="$(arg left_ip)"/>
       <param name="exposure_auto_max" value="True"/>
-      <param name="trigger_mode" value="fixedrate"/>
+      <!--<param name="trigger_mode" value="fixedrate"/>-->
       <remap from="camera" to="left"/>
     </node>
 
+    <!-- Start right camera -->
     <node pkg="prosilica_stingray" type="prosilica_node" name="right" output="screen" machine="vision">
       <!--<rosparam command="load" file="$(find prosilica_stingray)/camera_info/gc750c.yaml" />-->
       <param name="frame_id" value="camera_optical"/> <!--stereo_optical_right-->

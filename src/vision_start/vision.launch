@@ -5,6 +5,6 @@
   <include file="$(find vision_start)/config/stereo.xml" />
   <include file="$(find vision_start)/config/odometry.xml" />
   <include file="$(find vision_start)/config/staticTransforms.xml" />
-  <!-- <include file="$(find vision_start)/config/mono.xml" /> -->
+  <include file="$(find vision_start)/config/mono.xml" />
 
 </launch>

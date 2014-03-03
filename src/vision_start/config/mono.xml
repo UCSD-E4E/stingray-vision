@@ -14,9 +14,11 @@
 
   <!-- Run image_proc -->
   <group if="$(arg start_proc)">
-    <node pkg="image_proc" type="image_proc" name="image_proc">
-      <param name="frame_id" value="camera_optical"/>    
-    </node>
+    <group ns="/camera">
+      <node pkg="image_proc" type="image_proc" name="image_proc">
+        <param name="frame_id" value="camera_optical"/>
+      </node>
+    </group>
   </group>
 
 </launch>
