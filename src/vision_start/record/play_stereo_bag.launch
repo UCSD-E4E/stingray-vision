@@ -1,0 +1,19 @@
+<!--
+  Displays image data from a stereo bagfile.
+
+  Usage: roslaunch play_stereo_bag.launch bagfile:=<my_bagfile>
+-->
+
+<launch>
+
+  <!-- Get name of bagfile (passed in to roslaunch as arg) -->
+  <arg name="bag" default="test" />
+
+  <!-- Play bag file -->
+  <node pkg="rosbag" type="play" name="rosbag" args="/home/stingra/data/$(arg bag).bag" />
+
+  <!-- View stereo images -->
+  <node pkg="image_view" type="image_view" name="image_view_left" args="image:=/stereo/left/image_raw" />
+  <node pkg="image_view" type="image_view" name="image_view_right" args="image:=/stereo/right/image_raw" />
+
+</launch>
